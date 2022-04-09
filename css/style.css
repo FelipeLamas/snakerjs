@@ -1,0 +1,38 @@
+body{
+    margin: 5%;
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(22, 21, 21);
+    color: rgb(94, 23, 226);
+}
+#snake{
+    background-color: black;
+}
+.rodape{
+    margin-top: 50px;
+    width: 60%;
+    background-image: linear-gradient(lightgrey, grey);
+}
+
+.rodape h5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.801));
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+.navbar{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.692));
+}
+.navbar a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:80px;
+}
